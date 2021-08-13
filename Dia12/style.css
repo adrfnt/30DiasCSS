@@ -1,0 +1,33 @@
+body
+{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(54, 54, 54);
+}
+h1
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-size: 80px;
+    color: rgba(248, 248, 248, 0.986);
+    position: relative;
+}
+h1::before 
+{
+    content: "#30diasdeCSS";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    color: #20ffcf;
+    width: 0%;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+h1:hover::before
+{
+    width: 100%;
+}
