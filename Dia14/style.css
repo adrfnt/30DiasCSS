@@ -1,0 +1,26 @@
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Lato', sans-serif;
+	background-color: #ece9e9;
+}
+
+h1 {
+	font-size:80px;
+	text-align: center;
+	text-transform: uppercase;
+	background: url(imagem14.jpg);
+	-webkit-background-clip: text;
+	color: transparent;
+	animation: text-background 20s linear infinite;
+}
+
+@keyframes text-background {
+
+	from { background-position: 0 0 }
+
+	to { background-position: 100% 100% }
+
+} 
